@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">SUTD Dawn</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="default_user_image">User Image</string>
+    <string name="default_user_name">Name</string>
+    <string name="default_class">CI0X</string>
+    <string name="skills_title">Skills</string>
+    <string name="rating_score">0.0</string>
+    <string name="skill_name">Skill</string>
+    <string name="bio_label">Bio</string>
+    <string name="description_label">Description:</string>
+    <string name="name_label">Name:</string>
+    <string name="module_label">Module(s):</string>
+    <string name="cohort_label">Cohort:</string>
+    <string name="default_bio">Hello world! 😊</string>
+    <string name="link">Link</string>
+    <string name="group_name">Enter group name</string>
+    <string name="group_cap">Enter group capacity</string>
+    <string name="group_mod">Enter group module</string>
+    <string name="group_description">Enter group description (max 100 characters)</string>
+    <string name="create">Done</string>
+    <string name="blank_text_warning">Text fields Name, Capacity, and Module cannot be empty</string>
+    <string name="invalid_grpName">Chosen group name cannot contain special characters</string>
+    <string name="weak_password">Password too weak; capital letters, numbers, and special characters required</string>
+    <string name="on_user_creation">Registration successful. Welcome to SUTD Dawn!</string>
+    <string name="on_user_edit">Details successfully updated!</string>
+    <string name="failed_user_creation">Cannot connect to server, please try again</string>
+    <string name="email_exists">This email already exists</string>
+    <string name="user_exists">This user already exists</string>
+    <string name="on_group_creation">Your group was successfully created!</string>
+    <string name="failed_group_creation">Cannot connect to server, please try again</string>
+    <string name="already_in_group">You have already joined this group</string>
+    <string name="bio_too_long">Maximum of 100 characters is allowed</string>
+    <string name="failed_join_group">Failed to join; group is either full or not public</string>
+    <string name="group_exists">A group with this name already exists</string>
+    <string name="feedback_thx">Thanks for your feedback!</string>
+    <array name="skills">
+        <item>Java Programming</item>
+        <item>UI/UX Design</item>
+        <item>Soldering</item>
+    </array>
+    <string name="title_activity_skill_rating">SkillRating</string>
+    <string name="rating_content_description">Skill 5-star rating</string>
+    <string name="evaluation_label">Evaluation</string>
+    <string name="evaluation_input_contentdescription">Fill in your testimonial for this user</string>
+    <string name="submit">Submit</string>
+    <string name="go_back_contentdescription">Go back</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="welcome">Welcome!</string>
+    <string name="cancel">Cancel</string>
+    <string name="hello">hello</string>
+    <string name="type_in_to_search">Type in to search</string>
+    <string name="search">Search</string>
+    <string name="search_type">Search Type</string>
+    <string name="student">Student</string>
+    <string name="group">Group</string>
+    <string name="profile">Profile</string>
+    <string name="view_group">View Group</string>
+    <string name="view_individual">View Individual</string>
+    <string name="chat">chat</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="sutd_dawn">SUTD Dawn</string>
+    <string name="student_email">Student email</string>
+    <string name="password">Password</string>
+    <string name="done">Done</string>
+</resources>

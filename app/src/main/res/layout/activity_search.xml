@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.search.Search">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ImageButton
+            android:id="@+id/search_icon_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="9dp"
+            android:contentDescription="@string/hello"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_baseline_search_24"
+            android:background="?attr/colorPrimary"/>
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_gravity="end"/>
+
+        <!-- Search Bar -->
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="270dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="9dp"
+            android:background="#FFFFFFFF"
+            android:hint="@string/type_in_to_search"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColorHint="#757575" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_switch"
+        android:layout_below="@id/toolbar"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/search_type"
+        android:textOff="@string/student"
+        android:textOn="@string/group"
+        />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_switch"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</RelativeLayout>

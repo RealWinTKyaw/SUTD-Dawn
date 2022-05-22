@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/groups"
+        android:layout_weight="1"
+        android:text="group"
+        android:textAlignment="center">
+
+    </TextView>
+
+
+<!--    Using cardview to implement grid view-->
+<!--    <GridLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:rowCount="3"-->
+<!--        android:columnCount="2">-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="0"-->
+<!--            android:layout_column="0"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center_vertical|center_horizontal">-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="50.004\n2D\nGroup BST\nCapacity:5/7"-->
+<!--                    android:id="@+id/groups"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textAlignment="center"/>-->
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="0"-->
+<!--            android:layout_column="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center_vertical|center_horizontal"-->
+<!--                android:backgroundTint="@color/teal_200">-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/groups2"-->
+<!--                    android:text="50.004\n2D\nGroup Heapsort\nCapacity:7/7"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textAlignment="center"/>-->
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="1"-->
+<!--            android:layout_column="0"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center_vertical|center_horizontal"-->
+<!--                android:backgroundTint="@color/teal_200">-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/groups3"-->
+<!--                    android:text="50.004\nAI Trainer\nCapacity:1/7"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textAlignment="center"/>-->
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="1"-->
+<!--            android:layout_column="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center_vertical|center_horizontal"-->
+<!--                android:backgroundTint="@color/teal_200">-->
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/groups4"-->
+<!--                    android:text="50.004\n1D\nGroup Java4Life\nCapacity:3/7"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textAlignment="center"/>-->
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--    </GridLayout>-->
+
+</RelativeLayout>

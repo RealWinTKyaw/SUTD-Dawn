@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".backups.MainActivityB">
+    <!--    <ImageView-->
+    <!--        android:id="@+id/blank"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="30dp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:src="@drawable/blank" />-->
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/welcome_to"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+
+    <TextView
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/sutd_dawn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+
+
+
+
+    <EditText
+        android:id="@+id/studentEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_gray"
+        android:gravity="left"
+        android:inputType="textEmailAddress"
+        android:hint="@string/student_email"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_gray"
+        android:gravity="left"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:importantForAutofill="no" />
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/blank"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="30dp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:src="@drawable/blank" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/vertical_divider"
+            android:text="@string/done" />
+
+        <Button
+            android:id="@+id/signButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/vertical_divider"
+            android:text="@string/register" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/picture" />
+
+</LinearLayout>

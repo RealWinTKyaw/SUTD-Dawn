@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".ui.groupprofile.GroupProfile">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:layout_alignParentRight="false"
+            android:background="@null"
+            android:contentDescription="chat"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Group Name"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/module_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50.001"
+        android:textColor="@color/white"
+        app:chipSurfaceColor="@color/PRIMARY" />
+
+    <Button
+        android:id="@+id/joinGroupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Group" />
+
+    <Button
+        android:id="@+id/changeGroupAccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Open/Close"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/studentListGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/listitem_student" />
+
+</LinearLayout>

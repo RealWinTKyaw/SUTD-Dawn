@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.userprofile.AllSkills">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:layout_alignParentRight="false"
+            android:background="@null"
+            android:contentDescription="chat"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+        <ImageButton
+            android:id="@+id/editButton"
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_weight="0"
+            android:background="@null"
+            android:contentDescription="edit skill"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/skill_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        tools:listitem="@layout/listitem_skill" />
+
+</LinearLayout>

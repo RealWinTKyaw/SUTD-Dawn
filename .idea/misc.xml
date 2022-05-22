@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aikho/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aikho/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_main_registration.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/aikho/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/test_registration.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/aikho/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/test_search_input.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/aikho/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/test_search_output.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_grid_grp.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_group_profile.xml" value="0.11684782608695653" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_main_login.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_search.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_user_profile.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/bottom_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/fragment_home.xml" value="0.11684782608695653" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/individual_no_cohorts.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/marketplace_cohort.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/marketplace_group_view.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/marketplace_grp_child.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/marketplace_individual_view.xml" value="0.1" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/test_search_input.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/test_search_output.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/view_holder.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/monke/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/sahana/Video/app/src/main/res/layout/activity_main_chat_good.xml" value="0.25" />
+        <entry key="..\:/Users/sahana/Video/app/src/main/res/layout/activity_main_login.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/sahana/Video/app/src/main/res/layout/item_text_in.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/sahana/Video/app/src/main/res/layout/item_text_out.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/a.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/a1.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_all_skills.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_all_skills_edit.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_edit_profile.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_edit_skill.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_group_profile.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_listitem_editlink.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_main_login.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_main_registration.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_skill_rating.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/activity_user_profile.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/create_group.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/group_view_holder.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/individual_no_cohorts.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/listitem_skill.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/listitem_student.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/marketplace_cohort.xml" value="0.2609375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/marketplace_group_view.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/marketplace_no_cohorts.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/student_view_holder.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_Dawn/app/src/main/res/layout/view_holder.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_baseline_apps_24.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_baseline_format_align_justify_24.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_baseline_link_24.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/activity_all_skills.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/activity_all_skills_edit.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/activity_edit_profile.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/activity_edit_skill.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/activity_grid_grp.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/activity_listitem_editlink.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/activity_skill_rating.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/activity_user_profile.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/content_main_activity_login.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/create_group.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/grp_row_list.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/listitem_link.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/marketplace_cohort.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/marketplace_group_view.xml" value="0.3" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/marketplace_grp_child.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/marketplace_individual_view.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/marketplace_indv_child.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/layout/recycle_view_frag.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SUTD_DawnActual/app/src/main/res/menu/bottom_nav_menu.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_apps_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_format_align_justify_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_link_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_launcher_background.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/layout/create_group.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/layout/create_user.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/layout/show_attributes.xml" value="0.275" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TestingFirebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.232" />
+        <entry key="app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.3921875" />
+        <entry key="app/src/main/res/layout/activity_all_skills.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_all_skills_edit.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_edit_profile.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_edit_skill.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_grid_grp.xml" value="0.31354166666666666" />
+        <entry key="app/src/main/res/layout/activity_group_profile.xml" value="0.31354166666666666" />
+        <entry key="app/src/main/res/layout/activity_listitem_editlink.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main_chat_good.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_main_login.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_main_registration.xml" value="0.31354166666666666" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.2101851851851852" />
+        <entry key="app/src/main/res/layout/activity_skill_rating.xml" value="0.3619791666666667" />
+        <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.21710526315789475" />
+        <entry key="app/src/main/res/layout/content_main_activity_login.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/create_group.xml" value="0.31354166666666666" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1828774062816616" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1828774062816616" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.2101851851851852" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1828774062816616" />
+        <entry key="app/src/main/res/layout/listitem_link.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/listitem_skill.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/marketplace_grp.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/marketplace_grp_child.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/skill_listitem.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/test_search_output.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/userprofile.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/search_menu.xml" value="0.2101851851851852" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

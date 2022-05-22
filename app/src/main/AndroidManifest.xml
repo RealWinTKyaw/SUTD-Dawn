@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sutddawn">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SUTDDawn">
+        <activity
+            android:name=".ui.groupprofile.GroupProfile"
+            android:exported="true" />
+        <activity
+            android:name=".ui.marketplace.Group_View"
+            android:exported="true" />
+        <activity
+            android:name=".ui.userprofile.UserProfile"
+            android:exported="true" />
+        <activity
+            android:name=".ui.marketplace.Individual_View"
+            android:exported="true" />
+        <activity
+            android:name=".ui.groupprofile.CreateGroupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.userprofile.EditProfile"
+            android:exported="true" />
+        <activity
+            android:name=".ui.userprofile.AllSkills"
+            android:exported="true" />
+        <activity
+            android:name=".ui.userprofile.EditSkill"
+            android:exported="true" />
+        <activity
+            android:name=".ui.userprofile.SkillRating"
+            android:exported="true" />
+        <activity
+            android:name=".backups.MainActivityB"
+            android:exported="false">
+        </activity>
+        <activity android:name=".ui.chat.MainChatGoodActivity" android:exported="false"/>
+        <activity android:name=".ui.LoginPage.SignIn"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.Registration.Registration"/>
+        <activity android:name=".ui.search.Search"
+            android:launchMode="singleTask">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable">
+            </meta-data>
+        </activity>
+        <activity android:name=".ui.BottomNavBar"
+            android:exported="true"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>

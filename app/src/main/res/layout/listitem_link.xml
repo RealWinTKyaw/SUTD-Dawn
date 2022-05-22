@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listitem_link"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/listitem_vertical_padding">
+
+    <TextView
+        android:id="@+id/link_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:gravity="center"
+        android:text="@string/link"
+        android:textColor="@color/PRIMARY"
+        app:drawableStartCompat="@drawable/ic_baseline_link_24" />
+</LinearLayout>

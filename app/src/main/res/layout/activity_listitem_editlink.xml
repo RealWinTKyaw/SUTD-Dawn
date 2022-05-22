@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/listitem_horizontal_padding"
+    android:paddingTop="@dimen/listitem_vertical_padding"
+    android:paddingBottom="@dimen/listitem_vertical_padding"
+    android:clickable="false"
+    tools:context=".ui.userprofile.ListItemEditLink">
+
+    <TextView
+        android:id="@+id/skill_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/skill_name"
+        android:textColor="@color/black" />
+
+
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="@dimen/button"
+        android:layout_height="@dimen/button"
+        android:layout_weight="0"
+        android:background="@null"
+        android:contentDescription="edit skill"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+</LinearLayout>

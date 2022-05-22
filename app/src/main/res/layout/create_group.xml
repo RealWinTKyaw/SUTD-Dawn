@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="@dimen/button"
+        android:layout_height="@dimen/button"
+        android:layout_alignParentRight="false"
+        android:background="@null"
+        android:contentDescription="chat"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+    <EditText
+        android:id="@+id/groupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/group_name">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/groupCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/group_cap">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/groupModule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/group_mod">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/groupDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="@string/group_description">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/createGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/create">
+
+    </Button>
+
+</LinearLayout>

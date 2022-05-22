@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".ui.userprofile.SkillRating">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="@dimen/button"
+            android:layout_height="@dimen/button"
+            android:layout_alignParentRight="false"
+            android:background="@null"
+            android:contentDescription="chat"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/skill_rating_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/skill_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/skill_name"
+            android:textColor="@color/black" />
+
+        <RatingBar
+            android:id="@+id/skill_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:contentDescription="@string/rating_content_description" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eval_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/eval_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/evaluation_label"
+            android:textColor="@color/black" />
+
+        <RatingBar
+            android:id="@+id/eval_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:contentDescription="@string/rating_content_description" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/eval_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_divider"
+        android:autofillHints="Autofill"
+        android:background="@color/light_gray"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/evaluation_input_contentdescription"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:minHeight="48dp"
+        android:paddingLeft="@dimen/listitem_horizontal_padding"
+        android:paddingTop="@dimen/listitem_vertical_padding"
+        android:paddingRight="@dimen/listitem_horizontal_padding"
+        android:paddingBottom="@dimen/listitem_vertical_padding" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+</LinearLayout>
