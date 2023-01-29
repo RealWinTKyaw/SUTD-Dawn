@@ -1,5 +1,7 @@
 # SUTD Dawn
 
+[Final product](https://istd.sutd.edu.sg/term4-design-exhibition/50001/sutd-dawn)
+
 **A 50.001 1D Project by Team 17**
 - Katragadda Sahana 1005761
 - Jenna Tay Qi Lin 1005191
